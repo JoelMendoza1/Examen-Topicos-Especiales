@@ -5,7 +5,7 @@ import { AuthenticateService } from '../services/authentication.service';
 import { ChatService } from '../services/chat.service';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import * as CryptoJS from 'crypto-js';
+
 
 @Component({
   selector: 'app-chat',

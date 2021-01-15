@@ -6,7 +6,7 @@ import { switchMap, map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { NavController } from '@ionic/angular';
 import { AuthenticateService } from '../services/authentication.service';
-import * as CryptoJS from 'crypto-js';
+
 export interface User {
   uid: string;
   email: string;
